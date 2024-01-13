@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }   
+        body{
+           background-color: #000000;
+        }
+        li a{
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+        nav ul li{
+            display:inline-block ;
+            list-style:none;
+            padding: 10px 10px;
+            margin-left: 100px;
+            margin-top: 10%;
+            border: 3px solid black;
+            border-radius: 10px;
+            box-shadow: 0 5px 5px 5px ;
+            background:linear-gradient(45deg,white,blue);
+            padding: 4px;
+            position: relative;
+            font-weight:bold;
+            width: 200px;
+        }
+        nav ul li a:hover{
+            color:#5800ff ;
+        }
+        nav ul li  a::after{
+            content: "";
+            bottom: 0px;
+            left: 0px;
+            width:0px;
+            position: absolute;
+            height: 4px;
+            background: #fd4766;
+            transition: .3s;
+        }
+        nav ul li a:hover::after{
+            width: 100%;
+        }
+        h1{
+            margin-top: 5%;
+            margin-left: 20px;
+        }
+        th{
+            text-shadow: 2px 2px 5px ;
+            width: 10%;
+            height: 10%;
+        }
+        th a{
+            text-decoration: none;
+        }
+        th {
+            font-size: 20px;
+            border-radius: 10px;
+        }
+        th {
+            position: relative;
+            padding: 6px 0px;
+            font-weight:bold;
+        }
+        th a:hover{
+            color:#f2f7a2;
+        }
+        th a::after{
+            content: "";
+            bottom: 0px;
+            left: 0px;
+            width:0px;
+            position: absolute;
+            height: 4px;
+            background:rgb(10, 10, 10);
+            transition: .3s;
+        }
+        th a:hover::after{
+            width: 100%;
+        }
+        table{
+            background-color: skyblue;
+            font-size: 1.5em;
+            margin-left: 5%;
+            margin-bottom: 5%;
+            width: 10px;
+        }
+        table td{
+            width: 5px;
+            height: 5px;
+        }
+        i {
+            margin-left: 10%;
+            margin-top:2%;
+            font-size: 1.5em;
+        }
+        p{
+            margin-left: 13%;
+            margin-right: 3%;
+            font-size: 1.4em;
+        }
+        h1::selection{
+            color: purple;
+            background-color: black;
+
+        }
+        .logo{
+            margin:-10px 10px 0 0;
+            float:left;
+            width: 100px;
+            height: 100px;
+            margin-left: 10%;
+            background: linear-gradient(45deg,red,blue);
+            padding: 2px;
+            border-radius: 50%;
+            cursor: pointer;
+
+        }
+        
+        h1{
+	        font-family: 'Rockwell';
+	        font-weight:normal;
+	        font-size:25px;
+	        line-height:34px;
+	        color:#000000;
+	        text-align:center;
+	        padding:10px 0 0 0;
+}
+        h1 span{
+	        font-weight:bold;
+	        font-size:35px;
+	        color:black;
+	        text-transform:uppercase;
+            margin-right: 15%;
+            font-weight: bold;
+}
+tr td a{
+    width: max-content;
+    position: relative;
+    font-size: 40px;
+    margin: 100px auto;
+
+}
+tr td a::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 3px;
+    background-color: #000000;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s;
+}
+tr td a:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+
+
+
+            
+
+        
+
+    </style>
+</head>
+<body>   
+    <div class="cdx">
+    <h1>
+        <img src="download.jpg"alt="" class="logo" style="background-color: #000000;">
+        <span style="background-color: #fbfbfb; border-radius: 10px; font-family: 'Times New Roman'">NABAPRAVAT ACADEMY FOR MANAGEMENT EDUCATION</span>
+    </h1>
+
+    </div>
+
+       
+            <nav>
+                <ul>
+                  <li><a href="color25.html" style="color: #000000; font-size: 1em;">HIGHER AUTHORITY</a></li>
+                  <li><a href="color26.html" style="color: #000000;">OFFICE EXECUTIVE</a></li>
+                  <li><a href="color27.html" style="color: #000000;">CO-OFFICE EXECUTIVE</a></li>
+                  <li><a href="color28.html" style="color: #000000;">EVENT</a></li>
+                </ul>
+            </nav>
+            
+                <div class="content">
+
+                    <table border="1" >
+                        <h2 style="text-shadow: 2px 5px 5px; text-decoration:underline; color:rgb(255, 255, 255); margin-right: 75%;">COURSE DETAILS:-</h2>
+                        <tr>
+                            <th><a href="color4.html" style="color: #111111;">MANAGEMENT</a></th>
+                            <th><a href="color5.html" style="color: #000000;">COMPUTER SCIENCE</a></th>
+                            <th><a href="color6.html" style="color: #000000;">TRADITIONAL</a></th>
+                            <th><a href="color17.html" style="color: #000000;">MEDICAL SCIENCE</a></th>
+                            <th><a href="color20.html" style="color: #000000;">ITI</a></th>
+                        </tr>
+                        <tr>
+                            <td><a href="color35.html" style="color: #000000; text-decoration: none;">Msw</a></td>
+                            <td><a href="color36.html"  style="color: #0a0a0a; text-decoration: none;">Bsc.Itm</a></td>
+                            <td><a href=""  style="color: #080808; text-decoration: none;">Msc.Physics</a></td>
+                            <td><a href="color40.html"  style="color: #0c0c0c; text-decoration: none;">Anm</a></td>
+                            <td><a href="color37.html"  style="color: #0a0a0a; text-decoration: none;">Fitter</a></td>
+                        
+                        </tr>
+                        <tr>
+                            <td><a href="color42.html" style="color: #0c0c0c; text-decoration: none;">Bba</a></td>
+                            <td><a href="color41.html" style="color: #0d0d0d; text-decoration: none;">Bca</a></td>
+                            <td><a href="" style="color: #0d0d0d; text-decoration: none;">Msc.Chemestry</a></td>
+                            <td><a href="" style="color: #0d0d0d; text-decoration: none;">Msc.Nursing</a></td>
+                            <td><a href="color38.html" style="color: #111111; text-decoration: none;">Electrian</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="" style="color: #0d0d0d; text-decoration: none;">Mfc</a></td>
+                            <td><a href="color43.html" style="color: #040404; text-decoration: none;">Bsc.Com.Sc</a></td>
+                            <td><a href="" style="color: #0d0d0d; text-decoration: none;">Math</a></td>
+                            <td><a href="" style="color: #0d0d0d; text-decoration: none;">Micro.Biology</a></td>
+                            <td><a href="color39.html" style="color: #0e0e0e; text-decoration: none;">Wireman</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="color44.html" style="color: #0a0a0a; text-decoration: none;">B.Lib</a></td>
+                            <td><a href="" style="color: #0d0d0d; text-decoration: none;">Msc.Comp.sc</a></td>
+                            <td><a href="" style="color: #0d0d0d; text-decoration: none;">Msc.botany</a></td>
+                            <td  style="color: #020202;"> </td>
+                            <td  style="color: #090909;"> </td>
+                        </tr>
+
+                    </table>
+
+<div class="print" style = "display: flex;align-items: center;justify-content: center; color: white;">
+    <p>At-Sunakhandi,kashipur,kulia</p><br>
+    <p>Contact no-9861938110<br>8118063088</p><br>
+    <p><a href="">Email-nabapravatmgt@rediffmail.com</a></p><br>
+    <p><a href="">https://maps.app.goo.gl/oDP3mKY3EykQRa9v9</a></p><br>
+    <p> Dist-Cuttack</p><br>
+    <p>pin-754202</p>
+</div>        
+
+
+
+
+                    </div>
+
+                </div>
+
+                </div>
+
+            </div>
+
+</body>
+</html>
